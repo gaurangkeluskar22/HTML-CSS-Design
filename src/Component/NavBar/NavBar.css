@@ -1,0 +1,12 @@
+h1{
+    color: var(--fontColor);
+}
+
+.navbar-wrapper{
+    max-width: 1300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--fontColor);
+}

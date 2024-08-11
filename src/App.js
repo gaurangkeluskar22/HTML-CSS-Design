@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import Design from './Component/Design';
+import logo from "./logo.svg";
+import "./App.css";
+import Design from "./Component/Design";
+import { ThemeProvider } from "./context/ThemeContext";
+import NavBar from "./Component/NavBar/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <Design/>
-    </div>
+    <ThemeProvider>
+        <NavBar />
+        {/* <Design /> */}
+    </ThemeProvider>
   );
 }
 

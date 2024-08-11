@@ -1,16 +1,20 @@
+
 .Design-Wrapper{
-    position: relative;
-    transform: scale(1.5);
+   position: absolute;
+    transform: scale(1.8);
+    right: 15%;
+    top: 35%;
 }
 
 .Design-circle{
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     position: absolute;
     top: 35px;
     left: 35px;
+    box-shadow: 0px 0px 20px 0px var(--fontColor);
 }
 
 
@@ -19,7 +23,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50% 50%;
-    border: 1px solid black;
+    border: 1px solid var(--greyColor);
     position: relative;
     animation: spin 5s linear infinite;
 }
@@ -28,7 +32,7 @@
     width: 280px;
     height: 275px;
     border-radius: 50% 50%;
-    border: 1px solid black;
+    border: 1px solid var(--greyColor);
     position: absolute;
     top:-35px;
     left: -37px;
@@ -40,7 +44,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     top: 15px;
     left: 15px;
     position: absolute;
@@ -52,7 +56,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     bottom: 15px;
     right: 15px;
     position: absolute;
@@ -65,7 +69,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     top: 15px;
     right: 15px;
     position: absolute;
@@ -89,7 +93,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     position: absolute;
     z-index: 1;
     top: 220px;
@@ -102,20 +106,20 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     bottom:100px;
     right: -15px;
     position: absolute;
     z-index: 1;
     animation: planet 10s linear infinite;
-    background: black;
+    background: var(--fontColor);
 }
 
 .planet-5{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     top: -15px;
     right: 100px;
     position: absolute;
@@ -128,7 +132,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 1px solid var(--fontColor);
     top: 50px;
     left: 5px;
     position: absolute;

@@ -1,0 +1,19 @@
+$bgColor:white;
+$fontColor:black;
+
+[data-theme = "light"] {
+    $bgColor:white;
+    $fontColor:black;
+}
+
+[data-theme = "dark"] {
+    $bgColor:black;
+    $fontColor:white;
+}
+
+$white:white;
+$black:black;
+$red: red;
+$yellow: yellow;
+$blue: blue;
+$green: green;
