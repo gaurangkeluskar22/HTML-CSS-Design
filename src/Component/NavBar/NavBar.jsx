@@ -1,5 +1,8 @@
 import { useTheme } from "../../context/ThemeContext";
 import "./NavBar.css";
+import { FaSun as Sun } from "react-icons/fa";
+import { FaMoon as Moon} from "react-icons/fa";
+
 
 const NavBar = () => {
   const { theme, toggleTheme } = useTheme();
@@ -13,7 +16,12 @@ const NavBar = () => {
         <span className="navbar-ele">Skills</span>
         <span className="navbar-ele">Project</span>
         <span className="navbar-ele">Education</span>
-        <input type="checkbox" onChange={toggleTheme} />
+        <label for="checkbox" className="checkbox-label" onClick={toggleTheme}>
+            <Sun fill="yellow" className="checkbox-icon"/>
+            <Moon className="checkbox-icon" fill="yellow"/>
+            <span className="checkbox-ball" style={theme ==='dark' ? {transform: "translateX(35px)", transition:'transform 0.2s liner'} : {transform: "translateX(0px)",transition:'transform 0.2s liner'}}></span>
+        </label>
+
       </div>
 
       <div className="navbar-github ">GitHub</div>
