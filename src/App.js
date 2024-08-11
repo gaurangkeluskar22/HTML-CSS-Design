@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
+
 import "./App.css";
-import Design from "./Component/Design";
 import { ThemeProvider } from "./context/ThemeContext";
 import NavBar from "./Component/NavBar/NavBar";
+import About from "./Component/About/About";
 
 function App() {
   return (
     <ThemeProvider>
         <NavBar />
-        {/* <Design /> */}
+        <About/>
     </ThemeProvider>
   );
 }

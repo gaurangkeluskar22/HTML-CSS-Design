@@ -1,0 +1,55 @@
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+    height: 30rem;
+    margin: 4rem auto 1rem auto;
+}
+
+.about-left-section{
+    color: white;
+    width: 70%;
+}
+
+.about-right-section{
+    margin-left: 30rem;
+    width: 50%;
+
+}
+
+.about-name{
+    font-family: var(--poppinsBold);
+    color: var(--fontColor);
+    font-size: 3rem;
+}
+
+.about-prof{
+    font-family: var(--poppinsLight);
+    color: var(--fontColor);
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+}
+
+.about-description{
+    font-family: var(--poppinsLight);
+    color: var(--greyColor);
+    font-size: 1.3rem;
+}
+
+.about-resume{
+    margin-top: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-family: var(--poppinsLight);
+    color: var(--fontColor);
+    padding: 0.5rem 4rem;
+    outline: none;
+    border: 0.1rem solid var(--purple);
+    background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+}
+
+.about-prof-detail{
+    color: var(--purple);
+}

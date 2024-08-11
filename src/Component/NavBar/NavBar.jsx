@@ -13,6 +13,7 @@ const NavBar = () => {
         <span className="navbar-ele">Skills</span>
         <span className="navbar-ele">Project</span>
         <span className="navbar-ele">Education</span>
+        <input type="checkbox" onChange={toggleTheme} />
       </div>
 
       <div className="navbar-github ">GitHub</div>

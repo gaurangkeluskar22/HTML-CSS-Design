@@ -1,9 +1,9 @@
 
 .Design-Wrapper{
-   position: absolute;
+   /* position: absolute; */
     transform: scale(1.8);
-    right: 15%;
-    top: 35%;
+    /* right: 20%;
+    top: 35%; */
 }
 
 .Design-circle{
