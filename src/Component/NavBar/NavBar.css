@@ -4,7 +4,7 @@ h1{
 
 .navbar-wrapper{
     max-width: 1300px;
-    margin: 1rem auto;
+    margin: 1rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@ h1{
 }
 
 .navbar-middle-section{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 25px;
@@ -31,7 +31,7 @@ h1{
 }
 
 .navbar-github{
-    display: inline-block;
+    display: none;
     font-family: var(--poppinsLight);
     font-size: 1rem;
     color: var(--purple);
@@ -66,4 +66,76 @@ h1{
     left: 6px;
     top: 4px;
     
+}
+
+@media screen and (min-width: 769px) {
+    h1{
+        color: var(--fontColor);
+    }
+    
+    .navbar-wrapper{
+        max-width: 1300px;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--fontColor);
+    }
+    
+    .navbar-logo{
+        font-size: 1.5rem;
+        font-family: var(--poppinsLight);
+        font-weight: bold;
+    }
+    
+    .navbar-middle-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        position: relative;
+    }
+    
+    .navbar-ele{
+        font-size: 1rem;
+        font-family: var(--poppinsLight);
+    }
+    
+    .navbar-github{
+        display: inline-block;
+        font-family: var(--poppinsLight);
+        font-size: 1rem;
+        color: var(--purple);
+        border: 1px solid var(--purple);
+        border-radius: 50px;
+        padding: 5px 15px;
+    }
+    
+    .checkbox-icon{
+        font-size: 20px;
+    }
+    .checkbox-icon:nth-child(1){
+         margin: 0px 5px;
+    }
+    
+    .checkbox-icon:nth-child(2){
+        margin: 0px 5px;
+    }
+    .checkbox-label{
+        position: relative;
+        padding: 8px;
+        width: auto;
+        border-radius: 50px;
+        background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+    }
+    
+    .checkbox-ball{
+        background: var(--bgColor);
+        padding: 16px;
+        border-radius: 50px;
+        position: absolute;
+        left: 6px;
+        top: 4px;
+        
+    }    
 }

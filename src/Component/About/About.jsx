@@ -15,9 +15,9 @@ const About = () => {
                 </div>
                 <button className='about-resume'>Resume</button>
             </div>
-            <div className='about-right-section'>
-            <Design/>
-            </div>
+                <div className='about-right-section'>
+                <Design/>
+                </div>
         </div>
     )
 }

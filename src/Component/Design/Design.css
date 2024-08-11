@@ -1,9 +1,5 @@
-
 .Design-Wrapper{
-   /* position: absolute; */
-    transform: scale(1.8);
-    /* right: 20%;
-    top: 35%; */
+    transform: scale(1);
 }
 
 .Design-circle{
@@ -15,6 +11,7 @@
     top: 35px;
     left: 35px;
     box-shadow: 0px 0px 20px 0px var(--fontColor);
+    background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
 }
 
 
@@ -158,4 +155,167 @@
     100%{
         transform: rotate(0deg);
     }
+}
+
+
+@media screen and (min-width: 769px) {
+    
+.Design-Wrapper{
+    transform: scale(1.8);
+}
+
+.Design-circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    box-shadow: 0px 0px 20px 0px var(--fontColor);
+    background: linear-gradient(225deg, rgb(132, 0, 255) 0%, rgb(230, 0, 255) 100%);
+}
+
+
+
+.Design-circle-arc1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    border: 1px solid var(--greyColor);
+    position: relative;
+    animation: spin 5s linear infinite;
+}
+
+.Design-circle-arc2{
+    width: 280px;
+    height: 275px;
+    border-radius: 50% 50%;
+    border: 1px solid var(--greyColor);
+    position: absolute;
+    top:-35px;
+    left: -37px;
+    right: 0;
+    animation: spin 10s linear infinite;
+}
+
+.planet-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 5s linear infinite;
+}
+
+.planet-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 5s linear infinite;
+    background: #E44D26;
+}
+
+.planet-7{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    top: 15px;
+    right: 15px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 5s linear infinite;
+    background: #1172B8;
+}
+
+.planet-8{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    top: 160px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 5s linear infinite;
+}
+
+.planet-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    position: absolute;
+    z-index: 1;
+    top: 220px;
+    left: 25px;
+    animation: planet 10s linear infinite;
+    background: #FFCA28;
+}
+
+.planet-4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    bottom:100px;
+    right: -15px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 10s linear infinite;
+    background: var(--fontColor);
+}
+
+.planet-5{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    top: -15px;
+    right: 100px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 10s linear infinite;
+    background: white;
+}
+
+.planet-6{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--fontColor);
+    top: 50px;
+    left: 5px;
+    position: absolute;
+    z-index: 1;
+    animation: planet 10s linear infinite;
+    background: #3178C6;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@keyframes planet {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 }
