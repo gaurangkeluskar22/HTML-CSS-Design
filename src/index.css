@@ -1,13 +1,36 @@
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url('./assets/fonts/popins-bold.woff2');
+}
+
+@font-face {
+  font-family: 'Poppins-medium';
+  src: url('./assets/fonts/popins-medium.woff2');
+}
+
+@font-face {
+  font-family: 'Poppins-light';
+  src: url('./assets/fonts/popins-light.woff2');
+}
+
 [data-theme = "light"] {
   --bgColor:white;
   --fontColor:black;
   --greyColor: #adadad;
+  --poppinsBold: 'Poppins-bold';
+  --poppinsMedium: 'Poppins-medium';
+  --poppinsLight: 'Poppins-light';
+  --purple:#854CE6;
 }
 
 [data-theme = "dark"] {
   --bgColor: #191924;
   --fontColor:white;
   --greyColor: #adadad;
+  --poppinsBold: 'Poppins-bold';
+  --poppinsMedium: 'Poppins-medium';
+  --poppinsLight: 'Poppins-light';
+  --purple:#b78ffd;
 }
 
 *{
@@ -19,4 +42,5 @@
 body{
   background: var(--bgColor);
 }
+
 

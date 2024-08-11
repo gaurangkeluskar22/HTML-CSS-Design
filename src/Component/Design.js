@@ -1,13 +1,13 @@
 import './Design.css'
-import Profile from '../assets/profile.jpg'
-import Html from '../assets/html.svg'
-import Css from '../assets/css.svg'
-import Js from '../assets/js.svg'
-import Python from '../assets/python.svg'
-import Sql from '../assets/sql.svg'
-import React from '../assets/react.svg'
-import Typescript from '../assets/typescript.svg'
-import Express from '../assets/express.svg'
+import Profile from '../assets/images/profile.jpg'
+import Html from '../assets/images/html.svg'
+import Css from '../assets/images/css.svg'
+import Js from '../assets/images/js.svg'
+import Python from '../assets/images/python.svg'
+import Sql from '../assets/images/sql.svg'
+import React from '../assets/images/react.svg'
+import Typescript from '../assets/images/typescript.svg'
+import Express from '../assets/images/express.svg'
 
 const Design = () => {
     return(
