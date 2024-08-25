@@ -74,7 +74,7 @@ const Skills = () => {
   useEffect(() => {
     if (renderer) {
       // Load the laptop model and center it
-      loader.load("Laptop/Laptop.gltf", (gltf) => {
+      loader.load("Laptop/quit.gltf", (gltf) => {
         laptop = gltf.scene;
         laptop.position.set(0, 0, 1.5); // Center the laptop in the scene
         laptop.rotateX(0);
