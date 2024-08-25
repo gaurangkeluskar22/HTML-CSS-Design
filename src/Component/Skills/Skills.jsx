@@ -11,7 +11,7 @@ const Skills = () => {
   var laptop;
   var renderer = null;
   var controls;
-  const loader = new GLTFLoader().setPath("src/assets/Models/");
+  const loader = new GLTFLoader().setPath("Models/");
   const { theme, toggleTheme } = useTheme();
   const root = useRef(null)
 
