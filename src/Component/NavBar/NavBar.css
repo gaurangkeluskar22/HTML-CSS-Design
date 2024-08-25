@@ -4,11 +4,15 @@ h1{
 
 .navbar-wrapper{
     max-width: 1300px;
-    margin: 1rem 1rem;
+    padding: 1rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: var(--fontColor);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: var(--bgColor);
 }
 
 .navbar-logo{
@@ -75,11 +79,15 @@ h1{
     
     .navbar-wrapper{
         max-width: 1300px;
-        margin: 1rem auto;
+        padding: 1rem auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         color: var(--fontColor);
+        background: var(--bgColor);
+        width: 100%;
+        position: fixed;
+        top: 0;
     }
     
     .navbar-logo{
