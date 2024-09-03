@@ -21,7 +21,7 @@ function App() {
             <About />
           </Suspense>
           <Suspense fallback={<div></div>}>
-            <Skills />
+            {/* <Skills /> */}
           </Suspense>
         </div>
       </div>
