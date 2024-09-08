@@ -13,9 +13,7 @@ function App() {
   return (
     <ThemeProvider>
       <div className="wrapper">
-        <div className="navbar-outer-wrapper">
             <NavBar />
-        </div>
         <div className="body-wrapper">
             <About />
             {/* <Skills /> */}

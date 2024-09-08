@@ -2,30 +2,31 @@
 
 .about-wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     /* max-width: 1300px; */
     /* height: 30rem; */
-    margin: 4rem auto 1rem auto;
+    /* margin: 4rem auto 1rem auto; */
 }
 
 .about-left-section{
     color: white;
-    width: 80%;
+    /* width: 80%; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 10px auto;
+    margin: 1.5rem auto;
     text-align: center;
+    padding: 0rem 1.5rem;
 }
 
 .about-right-section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin: 5rem;
 }
 
 .about-name{
@@ -73,24 +74,27 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1300px;
-    height: 30rem;
-    margin: 7rem auto 1rem auto;
+    height: 90vh;
+    /* margin: 4rem auto 2rem auto; */
 }
 
 .about-left-section{
     color: white;
-    width: 70%;
+    /* width: 70%; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
+    flex: 1;
+    padding: 0rem 2.5rem 0rem 0rem;
 }
 
 .about-right-section{
-    margin-left: 30rem;
-    width: 50%;
-    display: block;
+    /* margin-left: 30rem; */
+    /* width: 50%; */
+    /* display: block; */
+    flex: 1;
 }
 
 
