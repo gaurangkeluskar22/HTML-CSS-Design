@@ -28,7 +28,7 @@ const Skills = () => {
       );
       camera.position.set(0, 2, 5); // Position the camera so it's looking at the model from a good distance
 
-      const canvasWidth = window.innerWidth;
+      const canvasWidth = window.innerWidth / 1.5;
       const canvasHeight = 700;
 
       renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -76,7 +76,7 @@ const Skills = () => {
       // Load the laptop model and center it
       loader.load("Laptop/quit.gltf", (gltf) => {
         laptop = gltf.scene;
-        laptop.position.set(0, 0, 1.5); // Center the laptop in the scene
+        laptop.position.set(0, 0, 3); // Center the laptop in the scene
         laptop.rotateX(0);
         scene.add(laptop);
       });

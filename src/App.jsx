@@ -16,7 +16,7 @@ function App() {
             <NavBar />
         <div className="body-wrapper">
             <About />
-            {/* <Skills /> */}
+            <Skills />
         </div>
       </div>
     </ThemeProvider>
