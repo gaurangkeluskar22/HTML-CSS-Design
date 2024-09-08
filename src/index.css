@@ -43,4 +43,7 @@ body{
   background: var(--bgColor);
 }
 
-
+a{
+  text-decoration: none;
+  color: inherit;
+}

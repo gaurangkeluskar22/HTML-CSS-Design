@@ -39,8 +39,9 @@ const NavBar = () => {
             ></span>
           </label>
         </div>
-
-        <div className="navbar-github ">GitHub</div>
+        <a href="https://github.com/gaurangkeluskar22" target="_blank">
+          <div className="navbar-github ">GitHub</div>
+        </a>
       </div>
     </div>
   );
