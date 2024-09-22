@@ -33,7 +33,7 @@ const LaptopContainer = () => {
   });
 
   return (
-    <group position={[0, -12, 140]}>
+    <group position={[0, -18, 140]}>
       <primitive object={model.scene} />
     </group>
   );

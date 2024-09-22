@@ -9,7 +9,7 @@ const Skills = () => {
 
   return (
     <div className="skills-wrapper">
-      <Canvas camera={{ fov: 22, position: [0, -10, 220] }} className="canvas-srollbar">
+      <Canvas camera={{ fov: 22, position: [0, -10, 220] }} className="canvas">
         <Environment
           files={[
             "https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/4k/brown_photostudio_02_4k.exr",
