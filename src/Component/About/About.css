@@ -5,9 +5,6 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    /* max-width: 1300px; */
-    /* height: 30rem; */
-    /* margin: 4rem auto 1rem auto; */
 }
 
 .about-left-section{
@@ -74,8 +71,7 @@
     justify-content: space-between;
     align-items: center;
     max-width: 1300px;
-    height: 90vh;
-    /* margin: 4rem auto 2rem auto; */
+    min-height: 90vh;
 }
 
 .about-left-section{
