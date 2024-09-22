@@ -17,8 +17,8 @@ function App() {
             <NavBar />
         <div className="body-wrapper">
             <About />
-            <Skills1/>
-            {/* <Skills /> */}
+            {/* <Skills1/> */}
+            <Skills />
         </div>
       </div>
     </ThemeProvider>
